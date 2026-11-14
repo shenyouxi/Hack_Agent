@@ -1,0 +1,263 @@
+[
+  {
+    "recipe_id": "r1",
+    "name": "Savory pancakes with ham and cheddar",
+    "servings": 4,
+    "total_minutes": 20,
+    "source_url": "https://www.bbcgoodfood.com/recipes/savoury-pancake",
+    "ingredients": [
+      {
+        "item_name": "plain flour",
+        "quantity": 200,
+        "unit": "g"
+      },
+      {
+        "item_name": "eggs",
+        "quantity": 2,
+        "unit": "pcs"
+      },
+      {
+        "item_name": "milk",
+        "quantity": 500,
+        "unit": "ml"
+      },
+      {
+        "item_name": "ham",
+        "quantity": 130,
+        "unit": "g"
+      },
+      {
+        "item_name": "cheddar",
+        "quantity": 150,
+        "unit": "g"
+      }
+    ],
+    "allergen_tags": [
+      "wheat",
+      "eggs",
+      "milk"
+    ],
+    "data_note": "Major measured ingredients only; cooking oil and seasoning are omitted from gap calculation."
+  },
+  {
+    "recipe_id": "r2",
+    "name": "Creamy mushroom and spinach pasta",
+    "servings": 2,
+    "total_minutes": 25,
+    "source_url": "https://www.bbcgoodfood.com/recipes/creamy-mushroom-spinach-pasta",
+    "ingredients": [
+      {
+        "item_name": "onion",
+        "quantity": 1,
+        "unit": "pcs"
+      },
+      {
+        "item_name": "mushrooms",
+        "quantity": 150,
+        "unit": "g"
+      },
+      {
+        "item_name": "tagliatelle",
+        "quantity": 150,
+        "unit": "g"
+      },
+      {
+        "item_name": "garlic",
+        "quantity": 2,
+        "unit": "pcs"
+      },
+      {
+        "item_name": "creme fraiche",
+        "quantity": 200,
+        "unit": "g"
+      },
+      {
+        "item_name": "parmesan",
+        "quantity": 15,
+        "unit": "g"
+      },
+      {
+        "item_name": "baby spinach",
+        "quantity": 120,
+        "unit": "g"
+      }
+    ],
+    "allergen_tags": [
+      "wheat",
+      "milk"
+    ],
+    "data_note": "The missing creme fraiche is intentional. Substitution requires sourced validation."
+  },
+  {
+    "recipe_id": "r3",
+    "name": "Pasta with chilli tomatoes and spinach",
+    "servings": 2,
+    "total_minutes": 30,
+    "source_url": "https://www.bbcgoodfood.com/recipes/pasta-chilli-tomatoes-spinach",
+    "ingredients": [
+      {
+        "item_name": "onion",
+        "quantity": 1,
+        "unit": "pcs"
+      },
+      {
+        "item_name": "garlic",
+        "quantity": 2,
+        "unit": "pcs"
+      },
+      {
+        "item_name": "penne",
+        "quantity": 200,
+        "unit": "g"
+      },
+      {
+        "item_name": "canned tomato",
+        "quantity": 400,
+        "unit": "g"
+      },
+      {
+        "item_name": "baby spinach",
+        "quantity": 125,
+        "unit": "g"
+      },
+      {
+        "item_name": "parmesan",
+        "quantity": 25,
+        "unit": "g"
+      }
+    ],
+    "allergen_tags": [
+      "wheat",
+      "milk"
+    ],
+    "data_note": "Partial ingredient mapping for a backup scenario. Wine, oregano, chilli and oil from the source are omitted; do not claim the full source recipe is in stock."
+  },
+  {
+    "recipe_id": "r4",
+    "name": "Spaghetti with spinach and walnut pesto",
+    "servings": 4,
+    "total_minutes": 30,
+    "source_url": "https://www.bbcgoodfood.com/recipes/spaghetti-spinach-walnut-pesto",
+    "ingredients": [
+      {
+        "item_name": "walnuts",
+        "quantity": 50,
+        "unit": "g"
+      },
+      {
+        "item_name": "baby spinach",
+        "quantity": 100,
+        "unit": "g"
+      }
+    ],
+    "allergen_tags": [
+      "tree_nuts",
+      "wheat"
+    ],
+    "data_note": "Safety-gate candidate only. This is not a complete ingredient mapping or an approved meal."
+  },
+  {
+    "recipe_id": "r5",
+    "name": "Creamy garlic pasta",
+    "servings": 4,
+    "total_minutes": 25,
+    "source_url": "https://www.bbcgoodfood.com/recipes/creamy-garlic-pasta",
+    "ingredients": [
+      {
+        "item_name": "tagliatelle",
+        "quantity": 300,
+        "unit": "g"
+      },
+      {
+        "item_name": "butter",
+        "quantity": 20,
+        "unit": "g"
+      },
+      {
+        "item_name": "garlic",
+        "quantity": 6,
+        "unit": "pcs"
+      },
+      {
+        "item_name": "plain flour",
+        "quantity": 16,
+        "unit": "g"
+      },
+      {
+        "item_name": "chicken stock",
+        "quantity": 150,
+        "unit": "ml"
+      },
+      {
+        "item_name": "double cream",
+        "quantity": 200,
+        "unit": "ml"
+      },
+      {
+        "item_name": "parmesan",
+        "quantity": 85,
+        "unit": "g"
+      },
+      {
+        "item_name": "parsley",
+        "quantity": 20,
+        "unit": "g"
+      }
+    ],
+    "allergen_tags": [
+      "wheat",
+      "milk"
+    ],
+    "data_note": "Flour 16 g is an approximate demo conversion from 2 tbsp in the source. Halve all quantities for two servings."
+  },
+  {
+    "recipe_id": "r6",
+    "name": "Creamy carbonara",
+    "servings": 4,
+    "total_minutes": 25,
+    "source_url": "https://www.bbcgoodfood.com/recipes/learn-to-make-spaghetti-carbonara",
+    "ingredients": [
+      {
+        "item_name": "spaghetti",
+        "quantity": 400,
+        "unit": "g"
+      },
+      {
+        "item_name": "olive oil",
+        "quantity": 15,
+        "unit": "ml"
+      },
+      {
+        "item_name": "pancetta",
+        "quantity": 200,
+        "unit": "g"
+      },
+      {
+        "item_name": "garlic",
+        "quantity": 2,
+        "unit": "pcs"
+      },
+      {
+        "item_name": "eggs",
+        "quantity": 3,
+        "unit": "pcs"
+      },
+      {
+        "item_name": "double cream",
+        "quantity": 75,
+        "unit": "ml"
+      },
+      {
+        "item_name": "parmesan",
+        "quantity": 50,
+        "unit": "g"
+      }
+    ],
+    "allergen_tags": [
+      "wheat",
+      "eggs",
+      "milk"
+    ],
+    "data_note": "Olive oil 15 ml is a demo conversion of 1 tbsp. Check cream substitution against the cooking context."
+  }
+]
