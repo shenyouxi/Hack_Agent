@@ -1,0 +1,10 @@
+{
+  "profile": {"allergens": ["nuts"], "constraints": {"max_minutes": 25}},
+  "items": [
+    {"item_name": "milk", "aliases": ["whole milk"], "category": "dairy", "quantity": 1000, "unit": "ml", "expiry_offset_days": 3, "safety_stock": 200, "allergen_tags": ["dairy"]},
+    {"item_name": "eggs", "aliases": ["egg"], "category": "eggs", "quantity": 10, "unit": "pcs", "expiry_offset_days": 14, "safety_stock": 2, "allergen_tags": ["egg"]},
+    {"item_name": "flour", "aliases": ["plain flour"], "category": "baking", "quantity": 1000, "unit": "g", "expiry_offset_days": 180, "safety_stock": 200, "allergen_tags": ["gluten"]},
+    {"item_name": "butter", "aliases": [], "category": "dairy", "quantity": 250, "unit": "g", "expiry_offset_days": 20, "safety_stock": 50, "allergen_tags": ["dairy"]},
+    {"item_name": "sugar", "aliases": [], "category": "baking", "quantity": 500, "unit": "g", "expiry_offset_days": 365, "safety_stock": 100}
+  ]
+}

@@ -1,0 +1,4 @@
+{
+  "label_types": {"milk": "use_by", "eggs": "best_before", "flour": "best_before", "butter": "best_before", "sugar": "none"},
+  "unverified_packaging": ["eggs"]
+}

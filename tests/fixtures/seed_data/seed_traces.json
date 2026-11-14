@@ -1,0 +1,59 @@
+{
+  "traces": [
+    {
+      "trace_id": "seed-001",
+      "trigger": "EXPIRY_IMMINENT",
+      "expiring": [{"name": "milk", "days": 2}],
+      "have": ["eggs", "flour", "butter", "sugar"],
+      "constraints": {"max_minutes": 25},
+      "allergens": ["nuts"],
+      "plan": {
+        "dish_name": "creamy milk pancakes",
+        "servings": 2,
+        "est_minutes": 20,
+        "ingredients": [
+          {"name": "milk", "amount": 300, "unit": "ml"},
+          {"name": "heavy cream", "amount": 100, "unit": "ml"},
+          {"name": "flour", "amount": 200, "unit": "g"},
+          {"name": "eggs", "amount": 2, "unit": "pcs"}
+        ],
+        "steps": ["Whisk the batter.", "Cook on a hot pan."],
+        "rationale": "Uses the expiring milk."
+      },
+      "final_outcome": "accepted"
+    },
+    {
+      "trace_id": "seed-002",
+      "trigger": "STOCK_DEPLETED",
+      "expiring": [],
+      "depleted": ["eggs"],
+      "have": ["milk", "flour", "butter", "sugar"],
+      "constraints": {"max_minutes": 25},
+      "allergens": ["nuts"],
+      "plan": {
+        "dish_name": "egg-free flatbread",
+        "est_minutes": 15,
+        "ingredients": [
+          {"name": "flour", "amount": 250, "unit": "g"},
+          {"name": "milk", "amount": 150, "unit": "ml"}
+        ]
+      },
+      "final_outcome": "accepted"
+    },
+    {
+      "trace_id": "seed-003",
+      "trigger": "EXPIRY_IMMINENT",
+      "expiring": ["milk(1d)"],
+      "have": ["eggs", "sugar"],
+      "constraints": 25,
+      "allergens": ["nuts"],
+      "plan": {
+        "dish_name": "almond custard",
+        "servings": 2,
+        "est_minutes": 25,
+        "ingredients": [{"name": "milk", "amount": 400, "unit": "ml"}, {"name": "almond flour", "amount": 50, "unit": "g"}]
+      },
+      "final_outcome": "rejected"
+    }
+  ]
+}
