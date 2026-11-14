@@ -1,0 +1,33 @@
+[
+  {
+    "id": "u1",
+    "name": "Alex",
+    "role": "host",
+    "allergies": [],
+    "dietary_rules": []
+  },
+  {
+    "id": "u2",
+    "name": "Sam",
+    "role": "regular_guest",
+    "allergies": [],
+    "dietary_rules": []
+  },
+  {
+    "id": "u3",
+    "name": "Taylor",
+    "role": "occasional_guest",
+    "allergies": [
+      "peanuts",
+      "tree_nuts"
+    ],
+    "dietary_rules": []
+  },
+  {
+    "id": "u4",
+    "name": "Robin",
+    "role": "occasional_guest",
+    "allergies": [],
+    "dietary_rules": []
+  }
+]

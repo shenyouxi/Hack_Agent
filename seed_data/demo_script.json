@@ -1,0 +1,1030 @@
+{
+  "demo_id": "three_round_autonomous_demo",
+  "base_date": "2026-11-14",
+  "timezone": "Europe/London",
+  "trigger_rule": "Emit once when an item first enters the <=2-day urgency window; ignore zero-stock items at initial seed.",
+  "settings": {
+    "auto_run": true,
+    "auto_accept_non_risk": true
+  },
+  "rounds": [
+    {
+      "day_index": 0,
+      "round_number": 1,
+      "at": "2026-11-14T18:00:00+00:00",
+      "trigger": {
+        "type": "EXPIRY_IMMINENT",
+        "item_name": "milk",
+        "expiry_offset_days": 1,
+        "days_until_expiry": 1
+      },
+      "opening_inventory": [
+        {
+          "item_name": "milk",
+          "quantity": 700,
+          "unit": "ml",
+          "expiry_offset_days": 1,
+          "label_type": "use_by",
+          "availability_state": "in_stock"
+        },
+        {
+          "item_name": "baby spinach",
+          "quantity": 300,
+          "unit": "g",
+          "expiry_offset_days": 4,
+          "label_type": "estimated_quality",
+          "availability_state": "in_stock"
+        },
+        {
+          "item_name": "mushrooms",
+          "quantity": 150,
+          "unit": "g",
+          "expiry_offset_days": 6,
+          "label_type": "estimated_quality",
+          "availability_state": "in_stock"
+        },
+        {
+          "item_name": "eggs",
+          "quantity": 6,
+          "unit": "pcs",
+          "expiry_offset_days": 3,
+          "label_type": "best_before",
+          "availability_state": "in_stock"
+        },
+        {
+          "item_name": "plain flour",
+          "quantity": 250,
+          "unit": "g",
+          "expiry_offset_days": 107,
+          "label_type": "best_before",
+          "availability_state": "in_stock"
+        },
+        {
+          "item_name": "ham",
+          "quantity": 90,
+          "unit": "g",
+          "expiry_offset_days": 7,
+          "label_type": "use_by",
+          "availability_state": "in_stock"
+        },
+        {
+          "item_name": "cheddar",
+          "quantity": 130,
+          "unit": "g",
+          "expiry_offset_days": 14,
+          "label_type": "use_by",
+          "availability_state": "in_stock"
+        },
+        {
+          "item_name": "tagliatelle",
+          "quantity": 180,
+          "unit": "g",
+          "expiry_offset_days": 199,
+          "label_type": "best_before",
+          "availability_state": "in_stock"
+        },
+        {
+          "item_name": "penne",
+          "quantity": 250,
+          "unit": "g",
+          "expiry_offset_days": 199,
+          "label_type": "best_before",
+          "availability_state": "in_stock"
+        },
+        {
+          "item_name": "onion",
+          "quantity": 2,
+          "unit": "pcs",
+          "expiry_offset_days": 16,
+          "label_type": "estimated_quality",
+          "availability_state": "in_stock"
+        },
+        {
+          "item_name": "garlic",
+          "quantity": 5,
+          "unit": "pcs",
+          "expiry_offset_days": 21,
+          "label_type": "estimated_quality",
+          "availability_state": "in_stock"
+        },
+        {
+          "item_name": "olive oil",
+          "quantity": 200,
+          "unit": "ml",
+          "expiry_offset_days": 138,
+          "label_type": "best_before",
+          "availability_state": "in_stock"
+        },
+        {
+          "item_name": "butter",
+          "quantity": 100,
+          "unit": "g",
+          "expiry_offset_days": 17,
+          "label_type": "use_by",
+          "availability_state": "in_stock"
+        },
+        {
+          "item_name": "creme fraiche",
+          "quantity": 0,
+          "unit": "g",
+          "expiry_offset_days": null,
+          "label_type": "none",
+          "availability_state": "depleted"
+        },
+        {
+          "item_name": "greek yogurt",
+          "quantity": 250,
+          "unit": "g",
+          "expiry_offset_days": 5,
+          "label_type": "use_by",
+          "availability_state": "in_stock"
+        },
+        {
+          "item_name": "lemon",
+          "quantity": 1,
+          "unit": "pcs",
+          "expiry_offset_days": 11,
+          "label_type": "estimated_quality",
+          "availability_state": "in_stock"
+        },
+        {
+          "item_name": "canned tomato",
+          "quantity": 400,
+          "unit": "g",
+          "expiry_offset_days": 260,
+          "label_type": "best_before",
+          "availability_state": "in_stock"
+        },
+        {
+          "item_name": "rice",
+          "quantity": 500,
+          "unit": "g",
+          "expiry_offset_days": 199,
+          "label_type": "best_before",
+          "availability_state": "in_stock"
+        },
+        {
+          "item_name": "broccoli",
+          "quantity": 200,
+          "unit": "g",
+          "expiry_offset_days": 5,
+          "label_type": "estimated_quality",
+          "availability_state": "in_stock"
+        },
+        {
+          "item_name": "tomatoes",
+          "quantity": 2,
+          "unit": "pcs",
+          "expiry_offset_days": 6,
+          "label_type": "estimated_quality",
+          "availability_state": "in_stock"
+        },
+        {
+          "item_name": "carrots",
+          "quantity": 300,
+          "unit": "g",
+          "expiry_offset_days": 11,
+          "label_type": "estimated_quality",
+          "availability_state": "in_stock"
+        },
+        {
+          "item_name": "peanut butter",
+          "quantity": 150,
+          "unit": "g",
+          "expiry_offset_days": 79,
+          "label_type": "best_before",
+          "availability_state": "in_stock"
+        },
+        {
+          "item_name": "walnuts",
+          "quantity": 80,
+          "unit": "g",
+          "expiry_offset_days": 79,
+          "label_type": "best_before",
+          "availability_state": "in_stock"
+        },
+        {
+          "item_name": "parmesan",
+          "quantity": 100,
+          "unit": "g",
+          "expiry_offset_days": 17,
+          "label_type": "use_by",
+          "availability_state": "in_stock"
+        },
+        {
+          "item_name": "double cream",
+          "quantity": 0,
+          "unit": "ml",
+          "expiry_offset_days": null,
+          "label_type": "none",
+          "availability_state": "depleted"
+        },
+        {
+          "item_name": "chicken stock",
+          "quantity": 100,
+          "unit": "ml",
+          "expiry_offset_days": 6,
+          "label_type": "use_by",
+          "availability_state": "in_stock"
+        },
+        {
+          "item_name": "parsley",
+          "quantity": 10,
+          "unit": "g",
+          "expiry_offset_days": 5,
+          "label_type": "estimated_quality",
+          "availability_state": "in_stock"
+        },
+        {
+          "item_name": "spaghetti",
+          "quantity": 400,
+          "unit": "g",
+          "expiry_offset_days": 199,
+          "label_type": "best_before",
+          "availability_state": "in_stock"
+        },
+        {
+          "item_name": "pancetta",
+          "quantity": 200,
+          "unit": "g",
+          "expiry_offset_days": 6,
+          "label_type": "use_by",
+          "availability_state": "in_stock"
+        }
+      ],
+      "candidate_recipe_id": "r5",
+      "expected_steps": [
+        "Sentinel detects milk approaching its use-by date.",
+        "Planner proposes creamy garlic pasta for two.",
+        "Resolver detects 100 ml of missing double cream.",
+        "Linkup searches for a cited substitute; Tavily extraction is shown only if actually executed.",
+        "Rule gate validates the date, allergen data and source.",
+        "The non-risk plan is accepted automatically.",
+        "A simulated MEAL_COMPLETED event confirms cooking and applies inventory changes.",
+        "B writes the decision trace; C writes auto-accept feedback; A makes the new trace searchable."
+      ],
+      "expected_outcome": {
+        "state": "accepted",
+        "auto_accepted": true,
+        "human_clicks": 0,
+        "trace_alias": "round_1_trace",
+        "feedback": "accepted"
+      },
+      "candidate_servings": 2,
+      "gap": {
+        "item_name": "double cream",
+        "quantity": 100,
+        "unit": "ml"
+      },
+      "substitution_candidate": {
+        "replaces": "100 ml double cream",
+        "with": [
+          {
+            "item_name": "milk",
+            "quantity": 75,
+            "unit": "ml"
+          },
+          {
+            "item_name": "butter",
+            "quantity": 25,
+            "unit": "g"
+          }
+        ],
+        "source_url": "https://www.silverspoon.co.uk/baking-tips/double-cream-substitutes",
+        "scope": "Cooking only; cannot be whipped."
+      },
+      "expected_inventory_after_meal": {
+        "milk": 625,
+        "eggs": 6,
+        "baby spinach": 300,
+        "double cream": 0,
+        "tagliatelle": 30,
+        "butter": 65,
+        "garlic": 2,
+        "plain flour": 242,
+        "chicken stock": 25,
+        "parmesan": 57.5,
+        "parsley": 0
+      }
+    },
+    {
+      "day_index": 1,
+      "round_number": 2,
+      "at": "2026-11-15T18:00:00+00:00",
+      "trigger": {
+        "type": "EXPIRY_IMMINENT",
+        "item_name": "eggs",
+        "expiry_offset_days": 3,
+        "days_until_expiry": 2
+      },
+      "opening_inventory": [
+        {
+          "item_name": "milk",
+          "quantity": 625,
+          "unit": "ml",
+          "expiry_offset_days": 1,
+          "label_type": "use_by",
+          "availability_state": "in_stock"
+        },
+        {
+          "item_name": "baby spinach",
+          "quantity": 300,
+          "unit": "g",
+          "expiry_offset_days": 4,
+          "label_type": "estimated_quality",
+          "availability_state": "in_stock"
+        },
+        {
+          "item_name": "mushrooms",
+          "quantity": 150,
+          "unit": "g",
+          "expiry_offset_days": 6,
+          "label_type": "estimated_quality",
+          "availability_state": "in_stock"
+        },
+        {
+          "item_name": "eggs",
+          "quantity": 6,
+          "unit": "pcs",
+          "expiry_offset_days": 3,
+          "label_type": "best_before",
+          "availability_state": "in_stock"
+        },
+        {
+          "item_name": "plain flour",
+          "quantity": 242,
+          "unit": "g",
+          "expiry_offset_days": 107,
+          "label_type": "best_before",
+          "availability_state": "in_stock"
+        },
+        {
+          "item_name": "ham",
+          "quantity": 90,
+          "unit": "g",
+          "expiry_offset_days": 7,
+          "label_type": "use_by",
+          "availability_state": "in_stock"
+        },
+        {
+          "item_name": "cheddar",
+          "quantity": 130,
+          "unit": "g",
+          "expiry_offset_days": 14,
+          "label_type": "use_by",
+          "availability_state": "in_stock"
+        },
+        {
+          "item_name": "tagliatelle",
+          "quantity": 30,
+          "unit": "g",
+          "expiry_offset_days": 199,
+          "label_type": "best_before",
+          "availability_state": "in_stock"
+        },
+        {
+          "item_name": "penne",
+          "quantity": 250,
+          "unit": "g",
+          "expiry_offset_days": 199,
+          "label_type": "best_before",
+          "availability_state": "in_stock"
+        },
+        {
+          "item_name": "onion",
+          "quantity": 2,
+          "unit": "pcs",
+          "expiry_offset_days": 16,
+          "label_type": "estimated_quality",
+          "availability_state": "in_stock"
+        },
+        {
+          "item_name": "garlic",
+          "quantity": 2,
+          "unit": "pcs",
+          "expiry_offset_days": 21,
+          "label_type": "estimated_quality",
+          "availability_state": "in_stock"
+        },
+        {
+          "item_name": "olive oil",
+          "quantity": 200,
+          "unit": "ml",
+          "expiry_offset_days": 138,
+          "label_type": "best_before",
+          "availability_state": "in_stock"
+        },
+        {
+          "item_name": "butter",
+          "quantity": 65,
+          "unit": "g",
+          "expiry_offset_days": 17,
+          "label_type": "use_by",
+          "availability_state": "in_stock"
+        },
+        {
+          "item_name": "creme fraiche",
+          "quantity": 0,
+          "unit": "g",
+          "expiry_offset_days": null,
+          "label_type": "none",
+          "availability_state": "depleted"
+        },
+        {
+          "item_name": "greek yogurt",
+          "quantity": 250,
+          "unit": "g",
+          "expiry_offset_days": 5,
+          "label_type": "use_by",
+          "availability_state": "in_stock"
+        },
+        {
+          "item_name": "lemon",
+          "quantity": 1,
+          "unit": "pcs",
+          "expiry_offset_days": 11,
+          "label_type": "estimated_quality",
+          "availability_state": "in_stock"
+        },
+        {
+          "item_name": "canned tomato",
+          "quantity": 400,
+          "unit": "g",
+          "expiry_offset_days": 260,
+          "label_type": "best_before",
+          "availability_state": "in_stock"
+        },
+        {
+          "item_name": "rice",
+          "quantity": 500,
+          "unit": "g",
+          "expiry_offset_days": 199,
+          "label_type": "best_before",
+          "availability_state": "in_stock"
+        },
+        {
+          "item_name": "broccoli",
+          "quantity": 200,
+          "unit": "g",
+          "expiry_offset_days": 5,
+          "label_type": "estimated_quality",
+          "availability_state": "in_stock"
+        },
+        {
+          "item_name": "tomatoes",
+          "quantity": 2,
+          "unit": "pcs",
+          "expiry_offset_days": 6,
+          "label_type": "estimated_quality",
+          "availability_state": "in_stock"
+        },
+        {
+          "item_name": "carrots",
+          "quantity": 300,
+          "unit": "g",
+          "expiry_offset_days": 11,
+          "label_type": "estimated_quality",
+          "availability_state": "in_stock"
+        },
+        {
+          "item_name": "peanut butter",
+          "quantity": 150,
+          "unit": "g",
+          "expiry_offset_days": 79,
+          "label_type": "best_before",
+          "availability_state": "in_stock"
+        },
+        {
+          "item_name": "walnuts",
+          "quantity": 80,
+          "unit": "g",
+          "expiry_offset_days": 79,
+          "label_type": "best_before",
+          "availability_state": "in_stock"
+        },
+        {
+          "item_name": "parmesan",
+          "quantity": 57.5,
+          "unit": "g",
+          "expiry_offset_days": 17,
+          "label_type": "use_by",
+          "availability_state": "in_stock"
+        },
+        {
+          "item_name": "double cream",
+          "quantity": 0,
+          "unit": "ml",
+          "expiry_offset_days": null,
+          "label_type": "none",
+          "availability_state": "depleted"
+        },
+        {
+          "item_name": "chicken stock",
+          "quantity": 25,
+          "unit": "ml",
+          "expiry_offset_days": 6,
+          "label_type": "use_by",
+          "availability_state": "in_stock"
+        },
+        {
+          "item_name": "parsley",
+          "quantity": 0,
+          "unit": "g",
+          "expiry_offset_days": 5,
+          "label_type": "estimated_quality",
+          "availability_state": "depleted"
+        },
+        {
+          "item_name": "spaghetti",
+          "quantity": 400,
+          "unit": "g",
+          "expiry_offset_days": 199,
+          "label_type": "best_before",
+          "availability_state": "in_stock"
+        },
+        {
+          "item_name": "pancetta",
+          "quantity": 200,
+          "unit": "g",
+          "expiry_offset_days": 6,
+          "label_type": "use_by",
+          "availability_state": "in_stock"
+        }
+      ],
+      "candidate_recipe_id": "r6",
+      "expected_steps": [
+        "Sentinel detects eggs entering the two-day urgency window.",
+        "Planner proposes creamy carbonara for four.",
+        "Memory retrieval returns the newly created Round 1 decision.",
+        "Resolver reuses its sourced cream substitution after checking current milk and butter stock.",
+        "The non-risk plan is accepted automatically.",
+        "A simulated MEAL_COMPLETED event confirms cooking.",
+        "B writes the new trace; C writes auto-accept feedback; A indexes it."
+      ],
+      "expected_outcome": {
+        "state": "accepted",
+        "auto_accepted": true,
+        "human_clicks": 0,
+        "trace_alias": "round_2_trace",
+        "feedback": "accepted"
+      },
+      "candidate_servings": 4,
+      "gap": {
+        "item_name": "double cream",
+        "quantity": 75,
+        "unit": "ml"
+      },
+      "substitution_candidate": {
+        "replaces": "75 ml double cream",
+        "with": [
+          {
+            "item_name": "milk",
+            "quantity": 56.25,
+            "unit": "ml"
+          },
+          {
+            "item_name": "butter",
+            "quantity": 18.75,
+            "unit": "g"
+          }
+        ],
+        "source_url": "https://www.silverspoon.co.uk/baking-tips/double-cream-substitutes",
+        "scope": "Scaled cooking substitute; verify suitability for this sauce."
+      },
+      "required_memory_assertion": {
+        "retrieved_trace_alias": "round_1_trace",
+        "must_show_in_ui": true,
+        "reason": "A similar missing-cream decision was accepted in Round 1."
+      },
+      "expected_inventory_after_meal": {
+        "milk": 568.75,
+        "eggs": 3,
+        "baby spinach": 300,
+        "double cream": 0,
+        "spaghetti": 0,
+        "pancetta": 0,
+        "garlic": 0,
+        "olive oil": 185,
+        "butter": 46.25,
+        "parmesan": 7.5
+      }
+    },
+    {
+      "day_index": 2,
+      "round_number": 3,
+      "at": "2026-11-16T18:00:00+00:00",
+      "trigger": {
+        "type": "EXPIRY_IMMINENT",
+        "item_name": "baby spinach",
+        "expiry_offset_days": 4,
+        "days_until_expiry": 2
+      },
+      "opening_inventory": [
+        {
+          "item_name": "milk",
+          "quantity": 568.75,
+          "unit": "ml",
+          "expiry_offset_days": 1,
+          "label_type": "use_by",
+          "availability_state": "past_label_date"
+        },
+        {
+          "item_name": "baby spinach",
+          "quantity": 300,
+          "unit": "g",
+          "expiry_offset_days": 4,
+          "label_type": "estimated_quality",
+          "availability_state": "in_stock"
+        },
+        {
+          "item_name": "mushrooms",
+          "quantity": 150,
+          "unit": "g",
+          "expiry_offset_days": 6,
+          "label_type": "estimated_quality",
+          "availability_state": "in_stock"
+        },
+        {
+          "item_name": "eggs",
+          "quantity": 3,
+          "unit": "pcs",
+          "expiry_offset_days": 3,
+          "label_type": "best_before",
+          "availability_state": "in_stock"
+        },
+        {
+          "item_name": "plain flour",
+          "quantity": 242,
+          "unit": "g",
+          "expiry_offset_days": 107,
+          "label_type": "best_before",
+          "availability_state": "in_stock"
+        },
+        {
+          "item_name": "ham",
+          "quantity": 90,
+          "unit": "g",
+          "expiry_offset_days": 7,
+          "label_type": "use_by",
+          "availability_state": "in_stock"
+        },
+        {
+          "item_name": "cheddar",
+          "quantity": 130,
+          "unit": "g",
+          "expiry_offset_days": 14,
+          "label_type": "use_by",
+          "availability_state": "in_stock"
+        },
+        {
+          "item_name": "tagliatelle",
+          "quantity": 30,
+          "unit": "g",
+          "expiry_offset_days": 199,
+          "label_type": "best_before",
+          "availability_state": "in_stock"
+        },
+        {
+          "item_name": "penne",
+          "quantity": 250,
+          "unit": "g",
+          "expiry_offset_days": 199,
+          "label_type": "best_before",
+          "availability_state": "in_stock"
+        },
+        {
+          "item_name": "onion",
+          "quantity": 2,
+          "unit": "pcs",
+          "expiry_offset_days": 16,
+          "label_type": "estimated_quality",
+          "availability_state": "in_stock"
+        },
+        {
+          "item_name": "garlic",
+          "quantity": 0,
+          "unit": "pcs",
+          "expiry_offset_days": 21,
+          "label_type": "estimated_quality",
+          "availability_state": "depleted"
+        },
+        {
+          "item_name": "olive oil",
+          "quantity": 185,
+          "unit": "ml",
+          "expiry_offset_days": 138,
+          "label_type": "best_before",
+          "availability_state": "in_stock"
+        },
+        {
+          "item_name": "butter",
+          "quantity": 46.25,
+          "unit": "g",
+          "expiry_offset_days": 17,
+          "label_type": "use_by",
+          "availability_state": "in_stock"
+        },
+        {
+          "item_name": "creme fraiche",
+          "quantity": 0,
+          "unit": "g",
+          "expiry_offset_days": null,
+          "label_type": "none",
+          "availability_state": "depleted"
+        },
+        {
+          "item_name": "greek yogurt",
+          "quantity": 250,
+          "unit": "g",
+          "expiry_offset_days": 5,
+          "label_type": "use_by",
+          "availability_state": "in_stock"
+        },
+        {
+          "item_name": "lemon",
+          "quantity": 1,
+          "unit": "pcs",
+          "expiry_offset_days": 11,
+          "label_type": "estimated_quality",
+          "availability_state": "in_stock"
+        },
+        {
+          "item_name": "canned tomato",
+          "quantity": 400,
+          "unit": "g",
+          "expiry_offset_days": 260,
+          "label_type": "best_before",
+          "availability_state": "in_stock"
+        },
+        {
+          "item_name": "rice",
+          "quantity": 500,
+          "unit": "g",
+          "expiry_offset_days": 199,
+          "label_type": "best_before",
+          "availability_state": "in_stock"
+        },
+        {
+          "item_name": "broccoli",
+          "quantity": 200,
+          "unit": "g",
+          "expiry_offset_days": 5,
+          "label_type": "estimated_quality",
+          "availability_state": "in_stock"
+        },
+        {
+          "item_name": "tomatoes",
+          "quantity": 2,
+          "unit": "pcs",
+          "expiry_offset_days": 6,
+          "label_type": "estimated_quality",
+          "availability_state": "in_stock"
+        },
+        {
+          "item_name": "carrots",
+          "quantity": 300,
+          "unit": "g",
+          "expiry_offset_days": 11,
+          "label_type": "estimated_quality",
+          "availability_state": "in_stock"
+        },
+        {
+          "item_name": "peanut butter",
+          "quantity": 150,
+          "unit": "g",
+          "expiry_offset_days": 79,
+          "label_type": "best_before",
+          "availability_state": "in_stock"
+        },
+        {
+          "item_name": "walnuts",
+          "quantity": 80,
+          "unit": "g",
+          "expiry_offset_days": 79,
+          "label_type": "best_before",
+          "availability_state": "in_stock"
+        },
+        {
+          "item_name": "parmesan",
+          "quantity": 7.5,
+          "unit": "g",
+          "expiry_offset_days": 17,
+          "label_type": "use_by",
+          "availability_state": "in_stock"
+        },
+        {
+          "item_name": "double cream",
+          "quantity": 0,
+          "unit": "ml",
+          "expiry_offset_days": null,
+          "label_type": "none",
+          "availability_state": "depleted"
+        },
+        {
+          "item_name": "chicken stock",
+          "quantity": 25,
+          "unit": "ml",
+          "expiry_offset_days": 6,
+          "label_type": "use_by",
+          "availability_state": "in_stock"
+        },
+        {
+          "item_name": "parsley",
+          "quantity": 0,
+          "unit": "g",
+          "expiry_offset_days": 5,
+          "label_type": "estimated_quality",
+          "availability_state": "depleted"
+        },
+        {
+          "item_name": "spaghetti",
+          "quantity": 0,
+          "unit": "g",
+          "expiry_offset_days": 199,
+          "label_type": "best_before",
+          "availability_state": "depleted"
+        },
+        {
+          "item_name": "pancetta",
+          "quantity": 0,
+          "unit": "g",
+          "expiry_offset_days": 6,
+          "label_type": "use_by",
+          "availability_state": "depleted"
+        }
+      ],
+      "candidate_recipe_id": "r4",
+      "expected_steps": [
+        "Sentinel detects spinach entering the two-day urgency window.",
+        "Planner looks for a way to use spinach.",
+        "Resolver surfaces a walnut pesto candidate.",
+        "The allergen rule detects the guest\u2019s tree-nut allergy.",
+        "The workflow pauses and shows a risk card with the source and affected guest.",
+        "The user rejects the candidate.",
+        "C writes rejected feedback to the Round 3 trace; B keeps the decision; A makes the rejection searchable."
+      ],
+      "expected_outcome": {
+        "state_before_feedback": "pending_confirmation",
+        "state_after_feedback": "rejected",
+        "auto_accepted": false,
+        "human_clicks": 1,
+        "trace_alias": "round_3_trace",
+        "feedback": "rejected",
+        "inventory_deduction": 0
+      },
+      "constraint_change": {
+        "new_guest_id": "u3",
+        "allergies": [
+          "peanuts",
+          "tree_nuts"
+        ]
+      },
+      "safety_note": "A known allergen cannot be executed through a generic Accept button. The user may reject it or correct an inaccurate allergy profile and rerun the rules."
+    }
+  ],
+  "edge_cases": [
+    {
+      "id": "s1",
+      "title": "Milk approaching use-by",
+      "event": {
+        "type": "TICK",
+        "at": "2026-11-14T18:00:00+00:00"
+      },
+      "expected": {
+        "trigger": "EXPIRY_IMMINENT",
+        "target_item": "milk",
+        "candidate_recipe": "r5",
+        "inventory_deduction_before_meal_completion": 0
+      }
+    },
+    {
+      "id": "s2",
+      "title": "Dinner changes from two to four diners",
+      "event": {
+        "type": "CONSTRAINT_SHIFT",
+        "at": "2026-11-14T18:05:00+00:00",
+        "diners_before": 2,
+        "diners_after": 4,
+        "participants": [
+          "u1",
+          "u2",
+          "u3",
+          "u4"
+        ]
+      },
+      "expected": {
+        "candidate_recipe": "r1",
+        "shopping_list_delta": [
+          {
+            "item_name": "ham",
+            "quantity": 40,
+            "unit": "g"
+          },
+          {
+            "item_name": "cheddar",
+            "quantity": 20,
+            "unit": "g"
+          }
+        ],
+        "state_after": "pending_package_check",
+        "inventory_deduction": 0
+      }
+    },
+    {
+      "id": "s3",
+      "title": "Dinner cancelled",
+      "event": {
+        "type": "CONSTRAINT_SHIFT",
+        "at": "2026-11-14T18:10:00+00:00",
+        "dinner_cancelled": true
+      },
+      "expected": {
+        "state_after": "plan_cancelled",
+        "release_reservations": true,
+        "remove_plan_shopping_delta": true,
+        "inventory_deduction": 0
+      }
+    },
+    {
+      "id": "s4",
+      "title": "Spinach approaching estimated quality date and recipe gap",
+      "event": {
+        "type": "TICK",
+        "at": "2026-11-16T18:00:00+00:00"
+      },
+      "expected": {
+        "trigger": "EXPIRY_IMMINENT",
+        "target_item": "baby spinach",
+        "candidate_recipe": "r2",
+        "missing_item": "creme fraiche",
+        "resolver_search_required": true,
+        "fallback_if_unverified": "replan_or_pending"
+      }
+    },
+    {
+      "id": "s5",
+      "title": "Tree-nut allergy gate",
+      "event": {
+        "type": "CONSTRAINT_SHIFT",
+        "at": "2026-11-16T18:01:00+00:00",
+        "participants": [
+          "u1",
+          "u2",
+          "u3",
+          "u4"
+        ],
+        "candidate_recipe": "r4"
+      },
+      "expected": {
+        "state_after": "pending_confirmation",
+        "reason": "tree_nuts_allergen",
+        "must_not_auto_execute": true
+      }
+    },
+    {
+      "id": "s6",
+      "title": "Milk past its use-by date",
+      "event": {
+        "type": "TICK",
+        "at": "2026-11-16T09:00:00+00:00"
+      },
+      "expected": {
+        "excluded_item": "milk",
+        "reason": "past_use_by",
+        "must_not_recommend_consumption": true
+      }
+    },
+    {
+      "id": "s7",
+      "title": "Unconfirmed food use inferred from chat or photo",
+      "event": {
+        "type": "UNCONFIRMED_CONSUMPTION",
+        "at": "2026-11-14T20:00:00+00:00",
+        "candidate": {
+          "item_name": "milk",
+          "quantity": 200,
+          "unit": "ml"
+        }
+      },
+      "expected": {
+        "state_after": "pending_confirmation",
+        "inventory_deduction": 0
+      }
+    },
+    {
+      "id": "s8",
+      "title": "Cream unavailable externally",
+      "event": {
+        "type": "EXTERNAL_SHOCK",
+        "at": "2026-11-14T18:07:00+00:00",
+        "item_name": "double cream",
+        "availability": "unavailable"
+      },
+      "expected": {
+        "resolver_search_required": true,
+        "source_citations_visible": true,
+        "fallback_if_unverified": "replan_or_pending"
+      }
+    }
+  ]
+}

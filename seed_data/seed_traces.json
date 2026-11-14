@@ -1,0 +1,87 @@
+[
+  {
+    "trigger": "EXPIRY_IMMINENT",
+    "expiring": [
+      "milk"
+    ],
+    "have": [
+      "eggs",
+      "plain flour",
+      "ham",
+      "cheddar"
+    ],
+    "constraints": {
+      "diners": 2,
+      "max_minutes": 25
+    },
+    "allergens": [],
+    "plan": {
+      "recipe_id": "r1",
+      "summary": "Savory pancakes for two, using milk before its use-by date."
+    },
+    "final_outcome": "accepted"
+  },
+  {
+    "trigger": "EXPIRY_IMMINENT",
+    "expiring": [
+      "baby spinach"
+    ],
+    "have": [
+      "canned tomato",
+      "penne"
+    ],
+    "constraints": {
+      "diners": 2,
+      "max_minutes": 35
+    },
+    "allergens": [],
+    "plan": {
+      "recipe_id": "r3",
+      "summary": "Tomato and spinach pasta, subject to complete ingredient check."
+    },
+    "final_outcome": "accepted"
+  },
+  {
+    "trigger": "CONSTRAINT_SHIFT",
+    "expiring": [],
+    "have": [
+      "milk",
+      "eggs",
+      "plain flour",
+      "ham",
+      "cheddar"
+    ],
+    "constraints": {
+      "diners": 4,
+      "max_minutes": 25
+    },
+    "allergens": [],
+    "plan": {
+      "recipe_id": "r1",
+      "summary": "Scaled the pancake plan and added 40 g ham and 20 g cheddar to the shopping list."
+    },
+    "final_outcome": "accepted"
+  },
+  {
+    "trigger": "CONSTRAINT_SHIFT",
+    "expiring": [
+      "baby spinach"
+    ],
+    "have": [
+      "walnuts",
+      "penne"
+    ],
+    "constraints": {
+      "diners": 4,
+      "max_minutes": 35
+    },
+    "allergens": [
+      "tree_nuts"
+    ],
+    "plan": {
+      "recipe_id": "r4",
+      "summary": "Blocked the walnut pesto candidate."
+    },
+    "final_outcome": "rejected"
+  }
+]

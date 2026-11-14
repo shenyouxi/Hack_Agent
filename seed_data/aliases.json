@@ -1,0 +1,59 @@
+{
+  "milk": [
+    "full-fat milk",
+    "semi-skimmed milk",
+    "whole milk"
+  ],
+  "baby spinach": [
+    "leaf spinach",
+    "spinach"
+  ],
+  "mushrooms": [
+    "baby mushrooms",
+    "button mushrooms"
+  ],
+  "eggs": [],
+  "plain flour": [
+    "all-purpose flour"
+  ],
+  "ham": [],
+  "cheddar": [
+    "cheddar cheese"
+  ],
+  "tagliatelle": [
+    "tagliatelle nests"
+  ],
+  "penne": [
+    "wholemeal penne"
+  ],
+  "onion": [],
+  "garlic": [
+    "garlic clove",
+    "garlic cloves"
+  ],
+  "olive oil": [],
+  "butter": [],
+  "creme fraiche": [
+    "creme fraiche",
+    "cr\u00e8me fra\u00eeche"
+  ],
+  "greek yogurt": [],
+  "lemon": [],
+  "canned tomato": [],
+  "rice": [],
+  "broccoli": [],
+  "tomatoes": [],
+  "carrots": [],
+  "peanut butter": [],
+  "walnuts": [],
+  "parmesan": [],
+  "double cream": [],
+  "chicken stock": [],
+  "parsley": [],
+  "spaghetti": [
+    "spaghetti pasta"
+  ],
+  "pancetta": [
+    "smoked pancetta"
+  ]
+}

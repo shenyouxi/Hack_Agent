@@ -1,0 +1,47 @@
+{
+  "milk": [
+    "milk"
+  ],
+  "eggs": [
+    "eggs"
+  ],
+  "plain flour": [
+    "wheat"
+  ],
+  "ham": [],
+  "cheddar": [
+    "milk"
+  ],
+  "tagliatelle": [
+    "wheat"
+  ],
+  "penne": [
+    "wheat"
+  ],
+  "butter": [
+    "milk"
+  ],
+  "creme fraiche": [
+    "milk"
+  ],
+  "greek yogurt": [
+    "milk"
+  ],
+  "peanut butter": [
+    "peanuts"
+  ],
+  "walnuts": [
+    "tree_nuts"
+  ],
+  "parmesan": [
+    "milk"
+  ],
+  "double cream": [
+    "milk"
+  ],
+  "chicken stock": [],
+  "spaghetti": [
+    "wheat"
+  ],
+  "pancetta": []
+}

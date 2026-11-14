@@ -1,0 +1,39 @@
+{
+  "label_types": {
+    "milk": "use_by",
+    "baby spinach": "estimated_quality",
+    "mushrooms": "estimated_quality",
+    "eggs": "best_before",
+    "plain flour": "best_before",
+    "ham": "use_by",
+    "cheddar": "use_by",
+    "tagliatelle": "best_before",
+    "penne": "best_before",
+    "onion": "estimated_quality",
+    "garlic": "estimated_quality",
+    "olive oil": "best_before",
+    "butter": "use_by",
+    "creme fraiche": "none",
+    "greek yogurt": "use_by",
+    "lemon": "estimated_quality",
+    "canned tomato": "best_before",
+    "rice": "best_before",
+    "broccoli": "estimated_quality",
+    "tomatoes": "estimated_quality",
+    "carrots": "estimated_quality",
+    "peanut butter": "best_before",
+    "walnuts": "best_before",
+    "parmesan": "use_by",
+    "double cream": "none",
+    "chicken stock": "use_by",
+    "parsley": "estimated_quality",
+    "spaghetti": "best_before",
+    "pancetta": "use_by"
+  },
+  "unverified_packaging": [
+    "ham",
+    "chicken stock",
+    "pancetta"
+  ],
+  "note": "Synthetic demo labels; the current Ingredient model does not preserve label type."
+}

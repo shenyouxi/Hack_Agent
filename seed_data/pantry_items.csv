@@ -1,0 +1,30 @@
+item_name,aliases,category,quantity,reserved,unit,expiry_offset_days,safety_stock,allergen_tags
+milk,full-fat milk|semi-skimmed milk|whole milk,dairy,700,0,ml,1,0,milk
+baby spinach,leaf spinach|spinach,vegetable,300,0,g,4,0,
+mushrooms,baby mushrooms|button mushrooms,vegetable,150,0,g,6,0,
+eggs,,egg,6,0,pcs,3,2,eggs
+plain flour,all-purpose flour,grain,250,0,g,107,200,wheat
+ham,,meat,90,0,g,7,0,
+cheddar,cheddar cheese,dairy,130,0,g,14,0,milk
+tagliatelle,tagliatelle nests,grain,180,0,g,199,0,wheat
+penne,wholemeal penne,grain,250,0,g,199,0,wheat
+onion,,vegetable,2,0,pcs,16,0,
+garlic,garlic clove|garlic cloves,vegetable,5,0,pcs,21,0,
+olive oil,,oil,200,0,ml,138,100,
+butter,,dairy,100,0,g,17,0,milk
+creme fraiche,creme fraiche|crème fraîche,dairy,0,0,g,,0,milk
+greek yogurt,,dairy,250,0,g,5,0,milk
+lemon,,fruit,1,0,pcs,11,0,
+canned tomato,,canned,400,0,g,260,0,
+rice,,grain,500,0,g,199,250,
+broccoli,,vegetable,200,0,g,5,0,
+tomatoes,,vegetable,2,0,pcs,6,0,
+carrots,,vegetable,300,0,g,11,0,
+peanut butter,,spread,150,0,g,79,0,peanuts
+walnuts,,nut,80,0,g,79,0,tree_nuts
+parmesan,,dairy,100,0,g,17,0,milk
+double cream,,dairy,0,0,ml,,0,milk
+chicken stock,,stock,100,0,ml,6,0,
+parsley,,herb,10,0,g,5,0,
+spaghetti,spaghetti pasta,grain,400,0,g,199,0,wheat
+pancetta,smoked pancetta,meat,200,0,g,6,0,

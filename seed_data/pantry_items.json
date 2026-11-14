@@ -1,0 +1,377 @@
+[
+  {
+    "item_name": "milk",
+    "aliases": [
+      "full-fat milk",
+      "semi-skimmed milk",
+      "whole milk"
+    ],
+    "category": "dairy",
+    "quantity": 700,
+    "reserved": 0,
+    "unit": "ml",
+    "expiry_offset_days": 1,
+    "safety_stock": 0,
+    "allergen_tags": [
+      "milk"
+    ]
+  },
+  {
+    "item_name": "baby spinach",
+    "aliases": [
+      "leaf spinach",
+      "spinach"
+    ],
+    "category": "vegetable",
+    "quantity": 300,
+    "reserved": 0,
+    "unit": "g",
+    "expiry_offset_days": 4,
+    "safety_stock": 0,
+    "allergen_tags": []
+  },
+  {
+    "item_name": "mushrooms",
+    "aliases": [
+      "baby mushrooms",
+      "button mushrooms"
+    ],
+    "category": "vegetable",
+    "quantity": 150,
+    "reserved": 0,
+    "unit": "g",
+    "expiry_offset_days": 6,
+    "safety_stock": 0,
+    "allergen_tags": []
+  },
+  {
+    "item_name": "eggs",
+    "aliases": [],
+    "category": "egg",
+    "quantity": 6,
+    "reserved": 0,
+    "unit": "pcs",
+    "expiry_offset_days": 3,
+    "safety_stock": 2,
+    "allergen_tags": [
+      "eggs"
+    ]
+  },
+  {
+    "item_name": "plain flour",
+    "aliases": [
+      "all-purpose flour"
+    ],
+    "category": "grain",
+    "quantity": 250,
+    "reserved": 0,
+    "unit": "g",
+    "expiry_offset_days": 107,
+    "safety_stock": 200,
+    "allergen_tags": [
+      "wheat"
+    ]
+  },
+  {
+    "item_name": "ham",
+    "aliases": [],
+    "category": "meat",
+    "quantity": 90,
+    "reserved": 0,
+    "unit": "g",
+    "expiry_offset_days": 7,
+    "safety_stock": 0,
+    "allergen_tags": []
+  },
+  {
+    "item_name": "cheddar",
+    "aliases": [
+      "cheddar cheese"
+    ],
+    "category": "dairy",
+    "quantity": 130,
+    "reserved": 0,
+    "unit": "g",
+    "expiry_offset_days": 14,
+    "safety_stock": 0,
+    "allergen_tags": [
+      "milk"
+    ]
+  },
+  {
+    "item_name": "tagliatelle",
+    "aliases": [
+      "tagliatelle nests"
+    ],
+    "category": "grain",
+    "quantity": 180,
+    "reserved": 0,
+    "unit": "g",
+    "expiry_offset_days": 199,
+    "safety_stock": 0,
+    "allergen_tags": [
+      "wheat"
+    ]
+  },
+  {
+    "item_name": "penne",
+    "aliases": [
+      "wholemeal penne"
+    ],
+    "category": "grain",
+    "quantity": 250,
+    "reserved": 0,
+    "unit": "g",
+    "expiry_offset_days": 199,
+    "safety_stock": 0,
+    "allergen_tags": [
+      "wheat"
+    ]
+  },
+  {
+    "item_name": "onion",
+    "aliases": [],
+    "category": "vegetable",
+    "quantity": 2,
+    "reserved": 0,
+    "unit": "pcs",
+    "expiry_offset_days": 16,
+    "safety_stock": 0,
+    "allergen_tags": []
+  },
+  {
+    "item_name": "garlic",
+    "aliases": [
+      "garlic clove",
+      "garlic cloves"
+    ],
+    "category": "vegetable",
+    "quantity": 5,
+    "reserved": 0,
+    "unit": "pcs",
+    "expiry_offset_days": 21,
+    "safety_stock": 0,
+    "allergen_tags": []
+  },
+  {
+    "item_name": "olive oil",
+    "aliases": [],
+    "category": "oil",
+    "quantity": 200,
+    "reserved": 0,
+    "unit": "ml",
+    "expiry_offset_days": 138,
+    "safety_stock": 100,
+    "allergen_tags": []
+  },
+  {
+    "item_name": "butter",
+    "aliases": [],
+    "category": "dairy",
+    "quantity": 100,
+    "reserved": 0,
+    "unit": "g",
+    "expiry_offset_days": 17,
+    "safety_stock": 0,
+    "allergen_tags": [
+      "milk"
+    ]
+  },
+  {
+    "item_name": "creme fraiche",
+    "aliases": [
+      "creme fraiche",
+      "cr\u00e8me fra\u00eeche"
+    ],
+    "category": "dairy",
+    "quantity": 0,
+    "reserved": 0,
+    "unit": "g",
+    "expiry_offset_days": null,
+    "safety_stock": 0,
+    "allergen_tags": [
+      "milk"
+    ]
+  },
+  {
+    "item_name": "greek yogurt",
+    "aliases": [],
+    "category": "dairy",
+    "quantity": 250,
+    "reserved": 0,
+    "unit": "g",
+    "expiry_offset_days": 5,
+    "safety_stock": 0,
+    "allergen_tags": [
+      "milk"
+    ]
+  },
+  {
+    "item_name": "lemon",
+    "aliases": [],
+    "category": "fruit",
+    "quantity": 1,
+    "reserved": 0,
+    "unit": "pcs",
+    "expiry_offset_days": 11,
+    "safety_stock": 0,
+    "allergen_tags": []
+  },
+  {
+    "item_name": "canned tomato",
+    "aliases": [],
+    "category": "canned",
+    "quantity": 400,
+    "reserved": 0,
+    "unit": "g",
+    "expiry_offset_days": 260,
+    "safety_stock": 0,
+    "allergen_tags": []
+  },
+  {
+    "item_name": "rice",
+    "aliases": [],
+    "category": "grain",
+    "quantity": 500,
+    "reserved": 0,
+    "unit": "g",
+    "expiry_offset_days": 199,
+    "safety_stock": 250,
+    "allergen_tags": []
+  },
+  {
+    "item_name": "broccoli",
+    "aliases": [],
+    "category": "vegetable",
+    "quantity": 200,
+    "reserved": 0,
+    "unit": "g",
+    "expiry_offset_days": 5,
+    "safety_stock": 0,
+    "allergen_tags": []
+  },
+  {
+    "item_name": "tomatoes",
+    "aliases": [],
+    "category": "vegetable",
+    "quantity": 2,
+    "reserved": 0,
+    "unit": "pcs",
+    "expiry_offset_days": 6,
+    "safety_stock": 0,
+    "allergen_tags": []
+  },
+  {
+    "item_name": "carrots",
+    "aliases": [],
+    "category": "vegetable",
+    "quantity": 300,
+    "reserved": 0,
+    "unit": "g",
+    "expiry_offset_days": 11,
+    "safety_stock": 0,
+    "allergen_tags": []
+  },
+  {
+    "item_name": "peanut butter",
+    "aliases": [],
+    "category": "spread",
+    "quantity": 150,
+    "reserved": 0,
+    "unit": "g",
+    "expiry_offset_days": 79,
+    "safety_stock": 0,
+    "allergen_tags": [
+      "peanuts"
+    ]
+  },
+  {
+    "item_name": "walnuts",
+    "aliases": [],
+    "category": "nut",
+    "quantity": 80,
+    "reserved": 0,
+    "unit": "g",
+    "expiry_offset_days": 79,
+    "safety_stock": 0,
+    "allergen_tags": [
+      "tree_nuts"
+    ]
+  },
+  {
+    "item_name": "parmesan",
+    "aliases": [],
+    "category": "dairy",
+    "quantity": 100,
+    "reserved": 0,
+    "unit": "g",
+    "expiry_offset_days": 17,
+    "safety_stock": 0,
+    "allergen_tags": [
+      "milk"
+    ]
+  },
+  {
+    "item_name": "double cream",
+    "aliases": [],
+    "category": "dairy",
+    "quantity": 0,
+    "reserved": 0,
+    "unit": "ml",
+    "expiry_offset_days": null,
+    "safety_stock": 0,
+    "allergen_tags": [
+      "milk"
+    ]
+  },
+  {
+    "item_name": "chicken stock",
+    "aliases": [],
+    "category": "stock",
+    "quantity": 100,
+    "reserved": 0,
+    "unit": "ml",
+    "expiry_offset_days": 6,
+    "safety_stock": 0,
+    "allergen_tags": []
+  },
+  {
+    "item_name": "parsley",
+    "aliases": [],
+    "category": "herb",
+    "quantity": 10,
+    "reserved": 0,
+    "unit": "g",
+    "expiry_offset_days": 5,
+    "safety_stock": 0,
+    "allergen_tags": []
+  },
+  {
+    "item_name": "spaghetti",
+    "aliases": [
+      "spaghetti pasta"
+    ],
+    "category": "grain",
+    "quantity": 400,
+    "reserved": 0,
+    "unit": "g",
+    "expiry_offset_days": 199,
+    "safety_stock": 0,
+    "allergen_tags": [
+      "wheat"
+    ]
+  },
+  {
+    "item_name": "pancetta",
+    "aliases": [
+      "smoked pancetta"
+    ],
+    "category": "meat",
+    "quantity": 200,
+    "reserved": 0,
+    "unit": "g",
+    "expiry_offset_days": 6,
+    "safety_stock": 0,
+    "allergen_tags": []
+  }
+]
