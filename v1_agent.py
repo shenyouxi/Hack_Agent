@@ -3,12 +3,22 @@
 import os, json, sys
 from openai import OpenAI
 
+<<<<<<< HEAD
+=======
+# client = OpenAI(
+#     base_url="https://api.groq.com/openai/v1",
+#     api_key=os.environ["GROQ_API_KEY"],
+# )
+# MODEL = "openai/gpt-oss-120b"
+>>>>>>> 58514ca (update v1, add v2)
 
 client = OpenAI(
-    base_url="https://api.groq.com/openai/v1",
-    api_key=os.environ["GROQ_API_KEY"],
+    base_url=os.environ.get("LLM_BASE_URL", "https://api.openai-next.com/v1"),
+    api_key=os.environ["LLM_API_KEY"],
+    timeout=60,
+    max_retries=3,
 )
-MODEL = "openai/gpt-oss-120b"
+MODEL = os.environ["LLM_MODEL"] 
 
 NOTES_DIR = os.path.abspath("notes")
 
