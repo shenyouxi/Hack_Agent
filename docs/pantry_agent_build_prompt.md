@@ -32,7 +32,7 @@ Out of scope: EXTERNAL_SHOCK, Agno, AgentKit, image recognition, calorie calcula
 ## 3. Stack and environment variables
 Python 3.12; pydantic>=2, pymongo, openai, linkup-sdk, tavily-python, mlflow, streamlit, numpy, pytest, python-dotenv, certifi. sentence-transformers is an optional embedding fallback only.
 
-Environment variables: LLM_BASE_URL, LLM_API_KEY, LLM_MODEL (OpenNext, OpenAI compatible) | MONGODB_URI, MONGODB_DB | LINKUP_API_KEY | TAVILY_API_KEY | EMBED_PROVIDER (openai|local), EMBED_MODEL | MLFLOW_TRACKING_URI (optional; with Databricks also DATABRICKS_HOST, DATABRICKS_TOKEN) | CACHE_FIRST (true|false) | STORE_BACKEND (mongo|json) | TICK_SECONDS (default 2) | DEMO_START_DATE (default 2026-11-15).
+Environment variables: LLM_BASE_URL, LLM_API_KEY, LLM_MODEL (OpenNext, OpenAI compatible) | MONGODB_URI, MONGODB_DB | LINKUP_API_KEY | TAVILY_API_KEY | EMBED_PROVIDER (openai|local), EMBED_MODEL | MLFLOW_TRACKING_URI (optional; with Databricks also DATABRICKS_HOST, DATABRICKS_TOKEN) | CACHE_FIRST (true|false) | STORE_BACKEND (mongo|json) | TICK_SECONDS (default 2) | DEMO_START_DATE (default 2026-11-14).
 
 Known facts: embeddings are OpenNext `text-embedding-3-small`, dimension 1536; `response_format=json_object` works; every Mongo connection must pass `tlsCAFile=certifi.where()`; load `.env` with `load_dotenv(".env")`.
 

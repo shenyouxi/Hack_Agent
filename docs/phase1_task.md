@@ -12,7 +12,7 @@ Language rule: all generated files, comments, docstrings, JSON, logs, error mess
 Implement only part A files. Do not touch agents/, tools/, ui/, orchestrator.py or worker.py.
 
 Phase 1 only. Create these three files, then stop and report:
-1. pantry/config.py: read environment variables (including DEMO_START_DATE, default 2026-11-15).
+1. pantry/config.py: read environment variables (including DEMO_START_DATE, default 2026-11-14).
 2. pantry/models.py: pydantic v2 models covering every collection in section 6 of the main prompt, plus Ingredient, Trace (trace_id, run_id, day_index, trigger, plan, retrieved_traces, resolver_actions, steps, risk_status, final_outcome, is_seed, created_at), Run, Feedback, Command, Gap, TriggerEvent, the Planner output schema, the Resolver output schema, Source and LinkupResult.
 3. pantry/store/base.py: abstract Store interface covering reads and writes for every collection, command polling, idempotent writes and inventory invariant checks. Include the signatures (signatures and docstrings only, no implementation) of get_today, advance_day, set_today, commit_run, search_traces and save_feedback.
 

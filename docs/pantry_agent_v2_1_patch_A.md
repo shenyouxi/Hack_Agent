@@ -11,7 +11,7 @@ Source: five requests from part B. Only touches files owned by A: store/, rules.
 ## 2. Current date storage and "advance one day"
 - `user_profile.today` stores an ISO date string.
 - Store methods: `get_today()`, `advance_day(n=1) -> new date`, `set_today(d)`. `advance_day` recomputes `priority_score` of every pantry item with the new date in the same operation.
-- Config `DEMO_START_DATE` (default `2026-11-15`) is used by seed and reset. All expiry dates are computed relative to DEMO_START_DATE.
+- Config `DEMO_START_DATE` (default `2026-11-14`) is used by seed and reset. All expiry dates are computed relative to DEMO_START_DATE.
 - `snapshot_text` uses relative days (for example `milk(2d)`), never absolute dates, so caches hit across rounds. Add a test for the snapshot builder in rules.py.
 
 ## 3. reset_demo.py: one command back to "day 1"

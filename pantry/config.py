@@ -9,7 +9,7 @@ import os
 
 from dotenv import load_dotenv
 
-DEFAULT_DEMO_START_DATE: str = "2026-11-15"
+DEFAULT_DEMO_START_DATE: str = "2026-11-14"
 DEFAULT_TICK_SECONDS: float = 2.0
 
 
