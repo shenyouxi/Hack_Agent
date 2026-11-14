@@ -12,6 +12,7 @@ from pydantic import BaseModel, ConfigDict, Field
 # ---------------------------------------------------------------------------
 
 Unit = Literal["pcs", "g", "ml"]
+DateLabel = Literal["use_by", "best_before", "estimated_quality", "none"]
 TriggerType = Literal["EXPIRY_IMMINENT", "STOCK_DEPLETED", "CONSTRAINT_SHIFT"]
 Severity = Literal["high", "low"]
 BusEventStatus = Literal["pending", "dispatched", "ignored"]
@@ -105,6 +106,8 @@ class Ingredient(DocModel):
     reserved: float = Field(default=0.0, ge=0)
     unit: Unit
     expiry_date: date | None = None
+    date_label: DateLabel = "none"
+    packaging_unverified: bool = False
     safety_stock: float = Field(default=0.0, ge=0)
     allergen_tags: list[str] = Field(default_factory=list)
     priority_score: float = 0.0
