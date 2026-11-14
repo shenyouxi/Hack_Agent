@@ -10,3 +10,6 @@ __pycache__/
 
 # macOS files
 .DS_Store
+
+# Editor files
+.vscode/
