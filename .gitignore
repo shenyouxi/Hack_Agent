@@ -13,3 +13,6 @@ __pycache__/
 
 # Editor files
 .vscode/
+
+# Local JsonStore data
+data/
