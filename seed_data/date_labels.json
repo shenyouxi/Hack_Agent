@@ -35,5 +35,5 @@
     "chicken stock",
     "pancetta"
   ],
-  "note": "Synthetic demo labels; the current Ingredient model does not preserve label type."
+  "note": "Synthetic demo date labels and packaging verification flags. seed.py maps these values onto Ingredient.date_label and Ingredient.packaging_unverified during import."
 }
