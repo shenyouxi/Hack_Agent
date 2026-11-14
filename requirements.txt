@@ -1,0 +1,10 @@
+pydantic>=2
+pymongo
+openai
+linkup-sdk
+tavily-python
+mlflow
+streamlit
+numpy
+pytest
+python-dotenv
